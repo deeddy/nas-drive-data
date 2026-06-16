@@ -1,0 +1,39 @@
+brand,line,drive_class,warranty_years,workload_tb_yr,mtbf_hours,note,source
+WD,Gold,Enterprise,5,550,2500000,"Enterprise-class drive built for 24/7 datacenter workloads with rotational-vibration tolerance.",Manufacturer spec
+WD,Red Pro,NAS-Pro,5,300,1000000,"Pro NAS drive rated for up to 24-bay arrays and 24/7 operation.",Manufacturer spec
+WD,Red Plus,NAS,3,180,1000000,"CMR NAS drive for 1-8 bay home and SOHO systems.",Manufacturer spec
+WD,Red,NAS,3,180,1000000,"Entry NAS line; older 2-6TB units use SMR, so verify before RAID use.",Manufacturer spec
+WD,Purple Pro,Surveillance-AI,5,550,2500000,"Surveillance and AI line for many-camera NVRs with deep-learning analytics.",Manufacturer spec
+WD,Purple,Surveillance,3,180,1000000,"Surveillance drive tuned for sustained 24/7 video-write workloads.",Manufacturer spec
+WD,Blue,Desktop,2,,,"Desktop drive - not rated for NAS, RAID or 24/7 operation.",Manufacturer spec
+WD,Ultrastar DC HC320,Enterprise,5,550,2500000,"Datacenter enterprise drive with the highest workload and vibration rating.",Manufacturer spec
+WD,Ultrastar DC HC330,Enterprise,5,550,2500000,"Datacenter enterprise drive with the highest workload and vibration rating.",Manufacturer spec
+WD,Ultrastar DC HC520,Enterprise,5,550,2500000,"Datacenter enterprise drive with the highest workload and vibration rating.",Manufacturer spec
+WD,Ultrastar DC HC530,Enterprise,5,550,2500000,"Datacenter enterprise drive with the highest workload and vibration rating.",Manufacturer spec
+WD,Ultrastar DC HC550,Enterprise,5,550,2500000,"Datacenter enterprise drive with the highest workload and vibration rating.",Manufacturer spec
+WD,Ultrastar DC HC560,Enterprise,5,550,2500000,"Datacenter enterprise drive with the highest workload and vibration rating.",Manufacturer spec
+WD,Ultrastar DC HC570,Enterprise,5,550,2500000,"Datacenter enterprise drive with the highest workload and vibration rating.",Manufacturer spec
+WD,Ultrastar DC HC580,Enterprise,5,550,2500000,"Datacenter enterprise drive with the highest workload and vibration rating.",Manufacturer spec
+Seagate,IronWolf Pro,NAS-Pro,5,300,1200000,"Pro NAS drive for up to 24-bay systems and 24/7 use; includes Rescue data recovery.",Manufacturer spec
+Seagate,IronWolf,NAS,3,180,1000000,"NAS drive for 1-8 bay home and SOHO systems.",Manufacturer spec
+Seagate,Exos X16,Enterprise,5,550,2500000,"Enterprise nearline drive for datacenter-scale 24/7 workloads.",Manufacturer spec
+Seagate,Exos X18,Enterprise,5,550,2500000,"Enterprise nearline drive for datacenter-scale 24/7 workloads.",Manufacturer spec
+Seagate,Exos X20,Enterprise,5,550,2500000,"Enterprise nearline drive for datacenter-scale 24/7 workloads.",Manufacturer spec
+Seagate,Exos X22,Enterprise,5,550,2500000,"Enterprise nearline drive for datacenter-scale 24/7 workloads.",Manufacturer spec
+Seagate,Exos X24,Enterprise,5,550,2500000,"Enterprise nearline drive for datacenter-scale 24/7 workloads.",Manufacturer spec
+Seagate,Exos 7E8,Enterprise,5,550,2500000,"Enterprise nearline drive for datacenter-scale 24/7 workloads.",Manufacturer spec
+Seagate,Exos 7E10,Enterprise,5,550,2500000,"Enterprise nearline drive for datacenter-scale 24/7 workloads.",Manufacturer spec
+Seagate,SkyHawk AI,Surveillance-AI,5,550,2000000,"Surveillance and AI drive for many-camera NVRs running video analytics.",Manufacturer spec
+Seagate,SkyHawk,Surveillance,3,180,1000000,"Surveillance drive built for 24/7 video recording.",Manufacturer spec
+Seagate,BarraCuda,Desktop,2,,,"Desktop drive - not for NAS or RAID; some capacities use SMR.",Manufacturer spec
+Toshiba,N300,NAS,3,180,1000000,"NAS drive for up to 8-bay systems and 24/7 operation.",Manufacturer spec
+Toshiba,MG06,Enterprise,5,550,2500000,"Enterprise MG-series nearline drive for 24/7 datacenter use.",Manufacturer spec
+Toshiba,MG07,Enterprise,5,550,2500000,"Enterprise MG-series nearline drive for 24/7 datacenter use.",Manufacturer spec
+Toshiba,MG08,Enterprise,5,550,2500000,"Enterprise MG-series nearline drive for 24/7 datacenter use.",Manufacturer spec
+Toshiba,MG09,Enterprise,5,550,2500000,"Enterprise MG-series nearline drive for 24/7 datacenter use.",Manufacturer spec
+Toshiba,MG10,Enterprise,5,550,2500000,"Enterprise MG-series nearline drive for 24/7 datacenter use.",Manufacturer spec
+Toshiba,X300,Performance,2,,,"High-performance desktop drive - not rated for NAS or RAID.",Manufacturer spec
+Toshiba,P300,Desktop,2,,,"Mainstream desktop drive - not for 24/7 NAS use.",Manufacturer spec
+Toshiba,DT02,Desktop,2,,,"Entry desktop drive - SMR; avoid for NAS or RAID.",Manufacturer spec
+Toshiba,L200,Laptop,2,,,"2.5-inch laptop drive - SMR; not for NAS use.",Manufacturer spec
+Toshiba,MQ04,Laptop,2,,,"2.5-inch laptop drive - not for NAS or RAID.",Manufacturer spec

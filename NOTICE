@@ -1,0 +1,23 @@
+NOTICE - third-party data
+
+This repository combines two sources under two different sets of terms.
+
+1. Drive specifications and CMR/SMR classification
+   (c) nasdisks.com - https://www.nasdisks.com
+   Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
+   See LICENSE.
+
+2. Failure-rate data
+   Fields: afr_pct, reliability_drive_count, reliability_drive_days,
+   reliability_failures (in data/drives.csv and data/drives.json), and the
+   whole of data/backblaze-afr.csv.
+   Source: Backblaze Drive Stats
+   https://www.backblaze.com/cloud-storage/resources/hard-drive-test-data
+
+   These figures are derived from Backblaze's published Drive Stats data and
+   remain subject to Backblaze's terms, NOT CC BY 4.0:
+     - cite Backblaze as the source;
+     - you may not sell the data itself (selling derivative works is allowed);
+     - you are solely responsible for how you use the data.
+
+   Backblaze does not endorse this project.
