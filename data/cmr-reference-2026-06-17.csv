@@ -1,0 +1,139 @@
+model,brand,line,capacity_tb,rpm,cache_mb,interface,form_factor,rec_tech,class,in_production,confidence,notes,acoustic_idle_db,acoustic_seek_db,helium
+WD20EFPX,WD,Red Plus,2,5400,128,SATA,3.5,CMR,NAS,yes,high,,24,28,0
+WD30EFZX,WD,Red Plus,3,5400,128,SATA,3.5,CMR,NAS,yes,medium,older EFZX naming,24,28,0
+WD40EFPX,WD,Red Plus,4,5400,256,SATA,3.5,CMR,NAS,yes,high,,24,28,0
+WD60EFPX,WD,Red Plus,6,5400,256,SATA,3.5,CMR,NAS,yes,high,,24,28,0
+WD80EFPX,WD,Red Plus,8,5640,256,SATA,3.5,CMR,NAS,yes,high,,24,28,0
+WD80EFZZ,WD,Red Plus,8,5640,256,SATA,3.5,CMR,NAS,yes,medium,alt 8TB SKU,24,28,0
+WD101EFBX,WD,Red Plus,10,7200,256,SATA,3.5,CMR,NAS,yes,high,,24,28,1
+WD120EFBX,WD,Red Plus,12,7200,256,SATA,3.5,CMR,NAS,yes,high,,24,28,1
+WD140EFGX,WD,Red Plus,14,7200,512,SATA,3.5,CMR,NAS,yes,high,,24,28,1
+WD2002FFSX,WD,Red Pro,2,7200,64,SATA,3.5,CMR,NAS-Pro,yes,high,,20,36,0
+WD4005FFBX,WD,Red Pro,4,7200,256,SATA,3.5,CMR,NAS-Pro,yes,medium,,20,36,0
+WD6005FFBX,WD,Red Pro,6,7200,256,SATA,3.5,CMR,NAS-Pro,yes,medium,,20,36,0
+WD8005FFBX,WD,Red Pro,8,7200,256,SATA,3.5,CMR,NAS-Pro,yes,medium,,20,36,0
+WD102KFBX,WD,Red Pro,10,7200,256,SATA,3.5,CMR,NAS-Pro,yes,high,,20,36,1
+WD121KFBX,WD,Red Pro,12,7200,256,SATA,3.5,CMR,NAS-Pro,yes,high,,20,36,1
+WD142KFGX,WD,Red Pro,14,7200,512,SATA,3.5,CMR,NAS-Pro,yes,high,,20,36,1
+WD161KFGX,WD,Red Pro,16,7200,512,SATA,3.5,CMR,NAS-Pro,yes,high,,20,36,1
+WD181KFGX,WD,Red Pro,18,7200,512,SATA,3.5,CMR,NAS-Pro,yes,high,,20,36,1
+WD201KFGX,WD,Red Pro,20,7200,512,SATA,3.5,CMR,NAS-Pro,yes,high,,20,36,1
+WD221KFGX,WD,Red Pro,22,7200,512,SATA,3.5,CMR,NAS-Pro,yes,high,,20,36,1
+WD240KFGX,WD,Red Pro,24,7200,512,SATA,3.5,CMR,NAS-Pro,yes,medium,newest ePMR CMR,20,36,1
+WD1005FBYZ,WD,Gold,1,7200,128,SATA,3.5,CMR,Enterprise,yes,medium,,20,32,0
+WD2005FBYZ,WD,Gold,2,7200,128,SATA,3.5,CMR,Enterprise,yes,medium,,20,32,0
+WD4004FRYZ,WD,Gold,4,7200,256,SATA,3.5,CMR,Enterprise,yes,medium,,20,32,0
+WD6004FRYZ,WD,Gold,6,7200,256,SATA,3.5,CMR,Enterprise,yes,medium,,20,32,0
+WD8004FRYZ,WD,Gold,8,7200,256,SATA,3.5,CMR,Enterprise,yes,medium,,20,32,0
+WD102KRYZ,WD,Gold,10,7200,256,SATA,3.5,CMR,Enterprise,yes,high,,20,32,1
+WD121KRYZ,WD,Gold,12,7200,256,SATA,3.5,CMR,Enterprise,yes,high,,20,32,1
+WD142KRYZ,WD,Gold,14,7200,512,SATA,3.5,CMR,Enterprise,yes,high,,20,32,1
+WD161KRYZ,WD,Gold,16,7200,512,SATA,3.5,CMR,Enterprise,yes,high,,20,32,1
+WD181KRYZ,WD,Gold,18,7200,512,SATA,3.5,CMR,Enterprise,yes,high,,20,32,1
+WD202KRYZ,WD,Gold,20,7200,512,SATA,3.5,CMR,Enterprise,yes,medium,,20,32,1
+WD221KRYZ,WD,Gold,22,7200,512,SATA,3.5,CMR,Enterprise,yes,medium,,20,32,1
+WD241KRYZ,WD,Gold,24,7200,512,SATA,3.5,CMR,Enterprise,yes,medium,newest,20,32,1
+HUS728T8TALE6L4,WD,Ultrastar DC HC320,8,7200,256,SATA,3.5,CMR,Enterprise,yes,medium,,,,0
+WUS721010ALE6L4,WD,Ultrastar DC HC330,10,7200,256,SATA,3.5,CMR,Enterprise,yes,medium,,,,0
+HUH721212ALE604,WD,Ultrastar DC HC520,12,7200,256,SATA,3.5,CMR,Enterprise,yes,medium,,20,36,1
+WUH721414ALE6L4,WD,Ultrastar DC HC530,14,7200,512,SATA,3.5,CMR,Enterprise,yes,high,,20,36,1
+WUH721816ALE6Lx,WD,Ultrastar DC HC550,16,7200,512,SATA,3.5,CMR,Enterprise,yes,high,Backblaze AFR; merged SKUs L0/L4,20,36,1
+WUH721818ALE6L4,WD,Ultrastar DC HC550,18,7200,512,SATA,3.5,CMR,Enterprise,yes,high,,20,36,1
+WUH722020BLE6L4,WD,Ultrastar DC HC560,20,7200,512,SATA,3.5,CMR,Enterprise,yes,medium,,20,36,1
+WUH722222ALE6L4,WD,Ultrastar DC HC570,22,7200,512,SATA,3.5,CMR,Enterprise,yes,medium,,20,36,1
+WUH722424ALE6L4,WD,Ultrastar DC HC580,24,7200,512,SATA,3.5,CMR,Enterprise,yes,medium,,20,36,1
+WUH721414AL5204,WD,Ultrastar DC HC530,14,7200,512,SAS,3.5,CMR,Enterprise,yes,medium,SAS variant,20,36,1
+WD8001PURP,WD,Purple Pro,8,7200,256,SATA,3.5,CMR,Surveillance,yes,medium,,20,32,0
+WD101PURP,WD,Purple Pro,10,7200,256,SATA,3.5,CMR,Surveillance,yes,medium,,20,32,1
+WD121PURP,WD,Purple Pro,12,7200,256,SATA,3.5,CMR,Surveillance,yes,medium,,20,32,1
+WD141PURP,WD,Purple Pro,14,7200,512,SATA,3.5,CMR,Surveillance,yes,medium,,20,32,1
+WD181PURP,WD,Purple Pro,18,7200,512,SATA,3.5,CMR,Surveillance,yes,medium,,20,32,1
+WD221PURP,WD,Purple Pro,22,7200,512,SATA,3.5,CMR,Surveillance,yes,medium,,20,32,1
+ST1000VN002,Seagate,IronWolf,1,5900,64,SATA,3.5,CMR,NAS,yes,medium,,,,0
+ST2000VN003,Seagate,IronWolf,2,5400,256,SATA,3.5,CMR,NAS,yes,high,,,,0
+ST3000VN006,Seagate,IronWolf,3,5400,256,SATA,3.5,CMR,NAS,yes,medium,,,,0
+ST4000VN006,Seagate,IronWolf,4,5400,256,SATA,3.5,CMR,NAS,yes,high,,,,0
+ST6000VN006,Seagate,IronWolf,6,5400,256,SATA,3.5,CMR,NAS,yes,high,,,,0
+ST8000VN004,Seagate,IronWolf,8,7200,256,SATA,3.5,CMR,NAS,yes,high,,,,0
+ST10000VN000,Seagate,IronWolf,10,7200,256,SATA,3.5,CMR,NAS,yes,medium,older SKU,,,1
+ST12000VN0008,Seagate,IronWolf,12,7200,256,SATA,3.5,CMR,NAS,yes,high,,,,1
+ST2000NT001,Seagate,IronWolf Pro,2,7200,256,SATA,3.5,CMR,NAS-Pro,yes,medium,,28,32,0
+ST4000NT001,Seagate,IronWolf Pro,4,7200,256,SATA,3.5,CMR,NAS-Pro,yes,medium,,28,32,0
+ST6000NT001,Seagate,IronWolf Pro,6,7200,256,SATA,3.5,CMR,NAS-Pro,yes,medium,,28,32,0
+ST8000NT001,Seagate,IronWolf Pro,8,7200,256,SATA,3.5,CMR,NAS-Pro,yes,high,,28,32,0
+ST10000NT001,Seagate,IronWolf Pro,10,7200,256,SATA,3.5,CMR,NAS-Pro,yes,medium,,28,32,1
+ST12000NT001,Seagate,IronWolf Pro,12,7200,256,SATA,3.5,CMR,NAS-Pro,yes,high,,28,32,1
+ST14000NT001,Seagate,IronWolf Pro,14,7200,256,SATA,3.5,CMR,NAS-Pro,yes,high,,28,32,1
+ST16000NT001,Seagate,IronWolf Pro,16,7200,256,SATA,3.5,CMR,NAS-Pro,yes,high,,28,32,1
+ST18000NT001,Seagate,IronWolf Pro,18,7200,256,SATA,3.5,CMR,NAS-Pro,yes,high,,28,32,1
+ST20000NT001,Seagate,IronWolf Pro,20,7200,256,SATA,3.5,CMR,NAS-Pro,yes,high,,28,32,1
+ST22000NT001,Seagate,IronWolf Pro,22,7200,512,SATA,3.5,CMR,NAS-Pro,yes,high,,28,32,1
+ST24000NT002,Seagate,IronWolf Pro,24,7200,512,SATA,3.5,CMR,NAS-Pro,yes,medium,,28,32,1
+ST8000NM000A,Seagate,Exos 7E8,8,7200,256,SATA,3.5,CMR,Enterprise,yes,medium,,28,32,0
+ST8000NM017B,Seagate,Exos 7E10,8,7200,256,SATA,3.5,CMR,Enterprise,yes,medium,,28,32,0
+ST10000NM019B,Seagate,Exos 7E10,10,7200,256,SATA,3.5,CMR,Enterprise,yes,medium,,28,32,0
+ST12000NM001G,Seagate,Exos X16,12,7200,256,SATA,3.5,CMR,Enterprise,yes,high,,29,33,1
+ST14000NM001G,Seagate,Exos X16,14,7200,256,SATA,3.5,CMR,Enterprise,yes,high,,29,33,1
+ST16000NM001G,Seagate,Exos X16,16,7200,256,SATA,3.5,CMR,Enterprise,yes,high,,29,33,1
+ST18000NM000J,Seagate,Exos X18,18,7200,256,SATA,3.5,CMR,Enterprise,yes,high,,29,33,1
+ST20000NM007D,Seagate,Exos X20,20,7200,256,SATA,3.5,CMR,Enterprise,yes,high,,29,33,1
+ST22000NM001E,Seagate,Exos X22,22,7200,512,SATA,3.5,CMR,Enterprise,yes,medium,,29,33,1
+ST24000NM002H,Seagate,Exos X24,24,7200,512,SATA,3.5,CMR,Enterprise,yes,medium,,30,34,1
+ST16000NM002G,Seagate,Exos X16,16,7200,256,SAS,3.5,CMR,Enterprise,yes,medium,SAS variant,29,33,1
+ST18000NM004J,Seagate,Exos X18,18,7200,256,SAS,3.5,CMR,Enterprise,yes,medium,SAS variant,29,33,1
+ST1000VX013,Seagate,SkyHawk,1,5900,64,SATA,3.5,CMR,Surveillance,yes,medium,,26,27,0
+ST2000VX017,Seagate,SkyHawk,2,5400,256,SATA,3.5,CMR,Surveillance,yes,medium,,26,27,0
+ST4000VX016,Seagate,SkyHawk,4,5900,256,SATA,3.5,CMR,Surveillance,yes,medium,,26,27,0
+ST6000VX009,Seagate,SkyHawk,6,5400,256,SATA,3.5,CMR,Surveillance,yes,medium,,26,27,0
+ST8000VX010,Seagate,SkyHawk,8,7200,256,SATA,3.5,CMR,Surveillance,yes,medium,,26,27,0
+ST8000VE001,Seagate,SkyHawk AI,8,7200,256,SATA,3.5,CMR,Surveillance,yes,medium,,,,0
+ST12000VE001,Seagate,SkyHawk AI,12,7200,256,SATA,3.5,CMR,Surveillance,yes,medium,,,,1
+ST16000VE002,Seagate,SkyHawk AI,16,7200,256,SATA,3.5,CMR,Surveillance,yes,medium,,,,1
+ST18000VE002,Seagate,SkyHawk AI,18,7200,256,SATA,3.5,CMR,Surveillance,yes,medium,,,,1
+ST20000VE002,Seagate,SkyHawk AI,20,7200,512,SATA,3.5,CMR,Surveillance,yes,medium,,,,1
+ST24000VE002,Seagate,SkyHawk AI,24,7200,512,SATA,3.5,CMR,Surveillance,yes,low,newest verify,,,1
+HDWG440,Toshiba,N300,4,7200,256,SATA,3.5,CMR,NAS,yes,high,,20,,0
+HDWG460,Toshiba,N300,6,7200,256,SATA,3.5,CMR,NAS,yes,high,,20,,0
+HDWG480,Toshiba,N300,8,7200,256,SATA,3.5,CMR,NAS,yes,high,,20,,0
+HDWG11A,Toshiba,N300,10,7200,256,SATA,3.5,CMR,NAS,yes,medium,,20,,0
+HDWG21C,Toshiba,N300,12,7200,256,SATA,3.5,CMR,NAS,yes,high,,20,,1
+HDWG31G,Toshiba,N300,14,7200,256,SATA,3.5,CMR,NAS,yes,high,,20,,1
+HDWG51G,Toshiba,N300,16,7200,512,SATA,3.5,CMR,NAS,yes,high,,20,,1
+MG06ACA600E,Toshiba,MG06,6,7200,256,SATA,3.5,CMR,Enterprise,yes,medium,,,,0
+MG06ACA800E,Toshiba,MG06,8,7200,256,SATA,3.5,CMR,Enterprise,yes,medium,,,,0
+MG06ACA10TE,Toshiba,MG06,10,7200,256,SATA,3.5,CMR,Enterprise,yes,medium,,,,0
+MG07ACA12TE,Toshiba,MG07,12,7200,256,SATA,3.5,CMR,Enterprise,yes,high,,20,,1
+MG07ACA14TE,Toshiba,MG07,14,7200,256,SATA,3.5,CMR,Enterprise,yes,high,,20,,1
+MG08ACA16Tx,Toshiba,MG08,16,7200,512,SATA,3.5,CMR,Enterprise,yes,high,Backblaze AFR; merged SKUs TA/TE,20,,1
+MG09ACA18TE,Toshiba,MG09,18,7200,512,SATA,3.5,CMR,Enterprise,yes,high,,20,,1
+MG10ACA20TE,Toshiba,MG10,20,7200,512,SATA,3.5,CMR,Enterprise,yes,medium,,20,,1
+MG10AFA22TE,Toshiba,MG10,22,7200,512,SATA,3.5,CMR,Enterprise,yes,medium,,20,,1
+MG07SCA14TE,Toshiba,MG07,14,7200,256,SAS,3.5,CMR,Enterprise,yes,medium,SAS variant,20,,1
+MG09SCA18TE,Toshiba,MG09,18,7200,512,SAS,3.5,CMR,Enterprise,yes,medium,SAS variant,20,,1
+HDWR440,Toshiba,X300,4,7200,256,SATA,3.5,CMR,Desktop,yes,medium,,20,,0
+HDWR460,Toshiba,X300,6,7200,256,SATA,3.5,CMR,Desktop,yes,medium,,20,,0
+HDWR480,Toshiba,X300,8,7200,256,SATA,3.5,CMR,Desktop,yes,medium,,20,,0
+HDWR11A,Toshiba,X300,10,7200,256,SATA,3.5,CMR,Desktop,yes,medium,,20,,0
+HDWR21C,Toshiba,X300,12,7200,256,SATA,3.5,CMR,Desktop,yes,medium,,20,,1
+HDWR31G,Toshiba,X300,14,7200,256,SATA,3.5,CMR,Desktop,yes,medium,,20,,1
+WD20EZAZ,WD,Blue,2,5400,256,SATA,3.5,SMR,Desktop,yes,high,SMR blacklist,23,27,0
+WD40EZAZ,WD,Blue,4,5400,256,SATA,3.5,SMR,Desktop,yes,high,SMR blacklist,23,27,0
+WD60EZAZ,WD,Blue,6,5400,256,SATA,3.5,SMR,Desktop,yes,high,SMR blacklist,23,27,0
+WD40EZAX,WD,Blue,4,5400,256,SATA,3.5,CMR,Desktop,yes,high,CMR (verified WD datasheet 2026),23,27,0
+WD60EZAX,WD,Blue,6,5400,256,SATA,3.5,CMR,Desktop,yes,high,CMR (verified WD datasheet 2026),23,27,0
+WD20EFAX,WD,Red,2,5400,256,SATA,3.5,SMR,NAS,yes,low,superseded by Red Plus SMR blacklist,23,29,0
+WD30EFAX,WD,Red,3,5400,256,SATA,3.5,SMR,NAS,yes,low,superseded SMR blacklist,23,29,0
+WD40EFAX,WD,Red,4,5400,256,SATA,3.5,SMR,NAS,yes,low,superseded SMR blacklist,23,29,0
+WD60EFAX,WD,Red,6,5400,256,SATA,3.5,SMR,NAS,yes,low,superseded SMR blacklist,23,29,0
+ST2000DM008,Seagate,BarraCuda,2,7200,256,SATA,3.5,SMR,Desktop,yes,high,SMR blacklist,22,24,0
+ST3000DM007,Seagate,BarraCuda,3,5400,256,SATA,3.5,SMR,Desktop,yes,medium,SMR blacklist,22,24,0
+ST4000DM004,Seagate,BarraCuda,4,5400,256,SATA,3.5,SMR,Desktop,yes,high,SMR blacklist,22,24,0
+ST6000DM003,Seagate,BarraCuda,6,5400,256,SATA,3.5,SMR,Desktop,yes,medium,SMR blacklist,22,24,0
+ST8000DM004,Seagate,BarraCuda,8,5400,256,SATA,3.5,SMR,Desktop,yes,high,SMR blacklist,22,24,0
+HDWD240,Toshiba,P300,4,5400,128,SATA,3.5,SMR,Desktop,yes,medium,SMR blacklist,22,,0
+HDWD260,Toshiba,P300,6,5400,128,SATA,3.5,SMR,Desktop,yes,medium,SMR blacklist,22,,0
+DT02ABA400,Toshiba,DT02,4,5400,128,SATA,3.5,SMR,Desktop,yes,medium,SMR blacklist,,,0
+DT02ABA600,Toshiba,DT02,6,5400,128,SATA,3.5,SMR,Desktop,yes,medium,SMR blacklist,,,0
+WUH722626ALE6L4,WD,Ultrastar DC HC590,26,7200,512,SATA,3.5,CMR,Enterprise,yes,high,Backblaze AFR,20,36,1
+MG11ACA24TE,Toshiba,MG11,24,7200,512,SATA,3.5,CMR,Enterprise,yes,high,Backblaze AFR,20,,1
+MG09ACA16TE,Toshiba,MG09,16,7200,512,SATA,3.5,CMR,Enterprise,yes,high,Backblaze AFR,20,,1
