@@ -116,10 +116,10 @@ HDWR480,Toshiba,X300,8,7200,256,SATA,3.5,CMR,Desktop,yes,medium,,20,,0
 HDWR11A,Toshiba,X300,10,7200,256,SATA,3.5,CMR,Desktop,yes,medium,,20,,0
 HDWR21C,Toshiba,X300,12,7200,256,SATA,3.5,CMR,Desktop,yes,medium,,20,,1
 HDWR31G,Toshiba,X300,14,7200,256,SATA,3.5,CMR,Desktop,yes,medium,,20,,1
-WD20EZAZ,WD,Blue,2,5400,256,SATA,3.5,SMR,Desktop,yes,high,SMR blacklist,23,27,0
+WD20EZAZ,WD,Blue,2,5400,256,SATA,3.5,SMR,Desktop,yes,high,SMR blacklist,21,26,0
 WD40EZAZ,WD,Blue,4,5400,256,SATA,3.5,SMR,Desktop,yes,high,SMR blacklist,23,27,0
 WD60EZAZ,WD,Blue,6,5400,256,SATA,3.5,SMR,Desktop,yes,high,SMR blacklist,23,27,0
-WD40EZAX,WD,Blue,4,5400,256,SATA,3.5,CMR,Desktop,yes,high,CMR (verified WD datasheet 2026),23,27,0
+WD40EZAX,WD,Blue,4,5400,256,SATA,3.5,CMR,Desktop,yes,high,CMR (verified WD datasheet 2026),23,25,0
 WD60EZAX,WD,Blue,6,5400,256,SATA,3.5,CMR,Desktop,yes,high,CMR (verified WD datasheet 2026),23,27,0
 WD20EFAX,WD,Red,2,5400,256,SATA,3.5,SMR,NAS,yes,low,superseded by Red Plus SMR blacklist,23,29,0
 WD30EFAX,WD,Red,3,5400,256,SATA,3.5,SMR,NAS,yes,low,superseded SMR blacklist,23,29,0
@@ -137,3 +137,14 @@ DT02ABA600,Toshiba,DT02,6,5400,128,SATA,3.5,SMR,Desktop,yes,medium,SMR blacklist
 WUH722626ALE6L4,WD,Ultrastar DC HC590,26,7200,512,SATA,3.5,CMR,Enterprise,yes,high,Backblaze AFR,20,36,1
 MG11ACA24TE,Toshiba,MG11,24,7200,512,SATA,3.5,CMR,Enterprise,yes,high,Backblaze AFR,20,,1
 MG09ACA16TE,Toshiba,MG09,16,7200,512,SATA,3.5,CMR,Enterprise,yes,high,Backblaze AFR,20,,1
+ST12000NM000J,Seagate,Exos X18,12,7200,256,SATA,3.5,CMR,Enterprise,no,high,Backblaze AFR,,,1
+HMS5C4040BLE640,WD,MegaScale DC 4000.B,4,5700,64,SATA,3.5,CMR,Enterprise,no,high,HGST CoolSpin; Backblaze AFR,,,0
+ST8000DM002,Seagate,BarraCuda,8,7200,256,SATA,3.5,CMR,Desktop,no,high,CMR not SMR; Backblaze AFR,,,0
+ST8000NM0055,Seagate,Enterprise Capacity V5,8,7200,256,SATA,3.5,CMR,Enterprise,no,high,Exos 7E8 predecessor; Backblaze AFR,,,0
+ST14000NM000J,Seagate,Exos X18,14,7200,256,SATA,3.5,CMR,Enterprise,no,high,Backblaze AFR,,,1
+ST16000NM000J,Seagate,Exos X18,16,7200,256,SATA,3.5,CMR,Enterprise,yes,high,Backblaze AFR; merged SKU NM002J,,,1
+HUH728080ALE604,WD,Ultrastar He8,8,7200,128,SATA,3.5,CMR,Enterprise,no,high,Backblaze AFR; merged SKU ALE600,,,1
+ST12000NM0008,Seagate,Exos X14,12,7200,256,SATA,3.5,CMR,Enterprise,no,high,Backblaze AFR,,,1
+ST14000NM0018,Seagate,Exos X14,14,7200,256,SATA,3.5,CMR,Enterprise,no,high,Backblaze AFR; merged SKU NM0138,,,1
+ST12000NM0007,Seagate,Exos X12,12,7200,256,SATA,3.5,CMR,Enterprise,no,high,Backblaze AFR,,,1
+ST10000NM0086,Seagate,Exos X10,10,7200,256,SATA,3.5,CMR,Enterprise,no,high,Backblaze AFR,,,1
