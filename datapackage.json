@@ -1,0 +1,50 @@
+{
+  "name": "nas-drive-data",
+  "title": "NASdisks NAS Drive Data",
+  "description": "Open dataset of currently-sold NAS and enterprise hard drives: full specs (capacity, RPM, cache, interface, form factor), verified CMR vs SMR, idle/seek acoustic noise, helium/air fill, drive class, and real-world annualized failure rates (AFR) computed from Backblaze Drive Stats. Drive specs and CMR/SMR are CC BY 4.0; AFR fields are cited to Backblaze Drive Stats, not relicensed.",
+  "homepage": "https://www.nasdisks.com/data/",
+  "licenses": [
+    { "name": "CC-BY-4.0", "title": "Creative Commons Attribution 4.0 International", "path": "https://creativecommons.org/licenses/by/4.0/" }
+  ],
+  "keywords": ["nas", "hard drives", "hdd", "cmr", "smr", "backblaze", "reliability", "annualized failure rate", "storage", "price per tb"],
+  "resources": [
+    {
+      "name": "drives",
+      "title": "NAS & enterprise hard drives (full dataset)",
+      "path": "https://www.nasdisks.com/data/drives.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          { "name": "model", "type": "string" },
+          { "name": "brand", "type": "string" },
+          { "name": "line", "type": "string" },
+          { "name": "capacity_tb", "type": "number" },
+          { "name": "rpm", "type": "integer" },
+          { "name": "cache_mb", "type": "integer" },
+          { "name": "interface", "type": "string" },
+          { "name": "form_factor", "type": "string" },
+          { "name": "recording_tech", "type": "string", "description": "cmr or smr" },
+          { "name": "acoustic_idle_db", "type": "number" },
+          { "name": "acoustic_seek_db", "type": "number" },
+          { "name": "is_helium", "type": "boolean" },
+          { "name": "drive_class", "type": "string" },
+          { "name": "in_production", "type": "boolean" },
+          { "name": "also_sold_as", "type": "string" },
+          { "name": "afr_pct", "type": "number", "description": "Backblaze annualized failure rate (%)" },
+          { "name": "reliability_drive_count", "type": "integer", "description": "Backblaze" },
+          { "name": "reliability_drive_days", "type": "integer", "description": "Backblaze" },
+          { "name": "reliability_failures", "type": "integer", "description": "Backblaze" },
+          { "name": "reliability_source", "type": "string" }
+        ]
+      }
+    },
+    {
+      "name": "drives-json",
+      "title": "Full dataset (JSON, with license + reliability metadata)",
+      "path": "https://www.nasdisks.com/data/drives.json",
+      "format": "json",
+      "mediatype": "application/json"
+    }
+  ]
+}
