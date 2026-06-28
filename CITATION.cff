@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: NASdisks NAS Drive Data
+message: "If you use this dataset, please cite it and link to nasdisks.com."
+type: dataset
+authors:
+  - name: NASdisks
+url: "https://www.nasdisks.com/data/"
+repository-code: "https://github.com/deeddy/nas-drive-data"
+license: CC-BY-4.0
+keywords:
+  - NAS
+  - hard drives
+  - CMR
+  - SMR
+  - Backblaze
+  - reliability
+  - storage
