@@ -1,5 +1,9 @@
 # NAS drive dataset
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21225049.svg)](https://doi.org/10.5281/zenodo.21225049)
+
+**Cite:** NASdisks (2026), *NAS Drive Dataset*, Zenodo. doi:[10.5281/zenodo.21225049](https://doi.org/10.5281/zenodo.21225049)
+
 An original dataset of NAS and enterprise hard drives: full specs, **CMR vs SMR classification**, and **annualized failure rates** derived from Backblaze Drive Stats. 149 drives.
 
 The core of this dataset - the CMR/SMR classification and drive specs - is our own original research, compiled from manufacturer datasheets and model-number analysis. Manufacturers do not publish a unified CMR/SMR list; we built one. The failure-rate column enriches it with rates derived from Backblaze's raw Drive Stats data (our computation, their underlying counts).
