@@ -1,4 +1,4 @@
-model,brand,line,capacity_tb,rpm,cache_mb,interface,form_factor,rec_tech,class,in_production,confidence,notes,acoustic_idle_db,acoustic_seek_db,helium
+model,brand,line,capacity_tb,rpm,cache_mb,interface,form_factor,rec_tech,class,in_production,confidence,notes,acoustic_idle_db,acoustic_seek_db,helium,media_type,nand_type,tbw_tb,dwpd,has_dram,has_plp,sustained_write_mbps
 WD20EFPX,WD,Red Plus,2,5400,128,SATA,3.5,CMR,NAS,yes,high,,24,28,0
 WD30EFZX,WD,Red Plus,3,5400,128,SATA,3.5,CMR,NAS,yes,medium,older EFZX naming,24,28,0
 WD40EFPX,WD,Red Plus,4,5400,256,SATA,3.5,CMR,NAS,yes,high,,24,28,0
@@ -19,7 +19,7 @@ WD161KFGX,WD,Red Pro,16,7200,512,SATA,3.5,CMR,NAS-Pro,yes,high,,20,36,1
 WD181KFGX,WD,Red Pro,18,7200,512,SATA,3.5,CMR,NAS-Pro,yes,high,,20,36,1
 WD201KFGX,WD,Red Pro,20,7200,512,SATA,3.5,CMR,NAS-Pro,yes,high,,20,36,1
 WD221KFGX,WD,Red Pro,22,7200,512,SATA,3.5,CMR,NAS-Pro,yes,high,,20,36,1
-WD240KFGX,WD,Red Pro,24,7200,512,SATA,3.5,CMR,NAS-Pro,yes,medium,newest ePMR CMR,20,36,1
+WD241KFGX,WD,Red Pro,24,7200,512,SATA,3.5,CMR,NAS-Pro,yes,high,24TB Red Pro; WD241KFGX supersedes WD240KFGX (identical CMR spec),25,32,1
 WD1005FBYZ,WD,Gold,1,7200,128,SATA,3.5,CMR,Enterprise,yes,medium,,20,32,0
 WD2005FBYZ,WD,Gold,2,7200,128,SATA,3.5,CMR,Enterprise,yes,medium,,20,32,0
 WD4004FRYZ,WD,Gold,4,7200,256,SATA,3.5,CMR,Enterprise,yes,medium,,20,32,0
@@ -32,7 +32,8 @@ WD161KRYZ,WD,Gold,16,7200,512,SATA,3.5,CMR,Enterprise,yes,high,,20,32,1
 WD181KRYZ,WD,Gold,18,7200,512,SATA,3.5,CMR,Enterprise,yes,high,,20,32,1
 WD202KRYZ,WD,Gold,20,7200,512,SATA,3.5,CMR,Enterprise,yes,medium,,20,32,1
 WD221KRYZ,WD,Gold,22,7200,512,SATA,3.5,CMR,Enterprise,yes,medium,,20,32,1
-WD241KRYZ,WD,Gold,24,7200,512,SATA,3.5,CMR,Enterprise,yes,medium,newest,20,32,1
+WD241KRYZ,WD,Gold,24,7200,512,SATA,3.5,CMR,Enterprise,no,medium,discontinued; superseded by WD242KRYZ revision,20,32,1
+WD242KRYZ,WD,Gold,24,7200,512,SATA,3.5,CMR,Enterprise,yes,high,current 24TB Gold (revision of WD241KRYZ),20,32,1
 HUS728T8TALE6L4,WD,Ultrastar DC HC320,8,7200,256,SATA,3.5,CMR,Enterprise,yes,medium,,,,0
 WUS721010ALE6L4,WD,Ultrastar DC HC330,10,7200,256,SATA,3.5,CMR,Enterprise,yes,medium,,,,0
 HUH721212ALE604,WD,Ultrastar DC HC520,12,7200,256,SATA,3.5,CMR,Enterprise,yes,medium,,20,36,1
@@ -87,7 +88,8 @@ ST4000VX016,Seagate,SkyHawk,4,5900,256,SATA,3.5,CMR,Surveillance,yes,medium,,26,
 ST6000VX009,Seagate,SkyHawk,6,5400,256,SATA,3.5,CMR,Surveillance,yes,medium,,26,27,0
 ST8000VX010,Seagate,SkyHawk,8,7200,256,SATA,3.5,CMR,Surveillance,yes,medium,,26,27,0
 ST8000VE001,Seagate,SkyHawk AI,8,7200,256,SATA,3.5,CMR,Surveillance,yes,medium,,,,0
-ST12000VE001,Seagate,SkyHawk AI,12,7200,256,SATA,3.5,CMR,Surveillance,yes,medium,,,,1
+ST12000VE001,Seagate,SkyHawk AI,12,7200,256,SATA,3.5,CMR,Surveillance,no,medium,discontinued; superseded by ST12000VE003 (512MB revision),,,1
+ST12000VE003,Seagate,SkyHawk AI,12,7200,512,SATA,3.5,CMR,Surveillance,yes,high,current SkyHawk AI 12TB (512MB revision of ST12000VE001),,,1
 ST16000VE002,Seagate,SkyHawk AI,16,7200,256,SATA,3.5,CMR,Surveillance,yes,medium,,,,1
 ST18000VE002,Seagate,SkyHawk AI,18,7200,256,SATA,3.5,CMR,Surveillance,yes,medium,,,,1
 ST20000VE002,Seagate,SkyHawk AI,20,7200,512,SATA,3.5,CMR,Surveillance,yes,medium,,,,1
@@ -99,6 +101,7 @@ HDWG11A,Toshiba,N300,10,7200,256,SATA,3.5,CMR,NAS,yes,medium,,20,,0
 HDWG21C,Toshiba,N300,12,7200,256,SATA,3.5,CMR,NAS,yes,high,,20,,1
 HDWG31G,Toshiba,N300,14,7200,256,SATA,3.5,CMR,NAS,yes,high,,20,,1
 HDWG51G,Toshiba,N300,16,7200,512,SATA,3.5,CMR,NAS,yes,high,,20,,1
+HDWG180,Toshiba,N300,18,7200,512,SATA,3.5,CMR,NAS,yes,high,,20,,1
 MG06ACA600E,Toshiba,MG06,6,7200,256,SATA,3.5,CMR,Enterprise,yes,medium,,,,0
 MG06ACA800E,Toshiba,MG06,8,7200,256,SATA,3.5,CMR,Enterprise,yes,medium,,,,0
 MG06ACA10TE,Toshiba,MG06,10,7200,256,SATA,3.5,CMR,Enterprise,yes,medium,,,,0
@@ -148,3 +151,59 @@ ST12000NM0008,Seagate,Exos X14,12,7200,256,SATA,3.5,CMR,Enterprise,no,high,Backb
 ST14000NM0018,Seagate,Exos X14,14,7200,256,SATA,3.5,CMR,Enterprise,no,high,Backblaze AFR; merged SKU NM0138,,,1
 ST12000NM0007,Seagate,Exos X12,12,7200,256,SATA,3.5,CMR,Enterprise,no,high,Backblaze AFR,,,1
 ST10000NM0086,Seagate,Exos X10,10,7200,256,SATA,3.5,CMR,Enterprise,no,high,Backblaze AFR,,,1
+MTFDKCC3T8TFR,Micron,7450 PRO,3.84,,,NVMe,U.3,,Enterprise,yes,high,,,,,ssd,TLC,7300,1,yes,yes,5000
+MTFDKCC7T6TFR,Micron,7450 PRO,7.68,,,NVMe,U.3,,Enterprise,yes,high,,,,,ssd,TLC,14000,1,yes,yes,5600
+MTFDKCC3T2TFS,Micron,7450 MAX,3.2,,,NVMe,U.3,,Enterprise,yes,high,,,,,ssd,TLC,17500,3,yes,yes,5000
+MTFDKCC6T4TFS,Micron,7450 MAX,6.4,,,NVMe,U.3,,Enterprise,yes,high,,,,,ssd,TLC,35000,3,yes,yes,5600
+MZQL23T8HCLS-00A07,Samsung,PM9A3,3.84,,,NVMe,U.2,,Enterprise,yes,high,,,,,ssd,TLC,7008,1,yes,yes,
+MZQL27T6HBLA-00A07,Samsung,PM9A3,7.68,,,NVMe,U.2,,Enterprise,yes,high,,,,,ssd,TLC,14016,1,yes,yes,
+KCD8XRUG3T84,Kioxia,CD8-R,3.84,,,NVMe,U.2,,Enterprise,yes,medium,,,,,ssd,TLC,7008,1,yes,yes,3800
+KCD8XRUG7T68,Kioxia,CD8-R,7.68,,,NVMe,U.2,,Enterprise,yes,medium,,,,,ssd,TLC,14016,1,yes,yes,3800
+SSDPF2KX038T1,Solidigm,D7-P5520,3.84,,,NVMe,U.2,,Enterprise,yes,high,,,,,ssd,TLC,7000,1,yes,yes,3600
+SSDPF2KX076T1,Solidigm,D7-P5520,7.68,,,NVMe,U.2,,Enterprise,yes,high,,,,,ssd,TLC,14000,1,yes,yes,4200
+MZ7L31T9HBLT-00W07,Samsung,PM893,1.92,,,SATA,2.5,,Enterprise,yes,high,,,,,ssd,TLC,3504,1,yes,yes,
+MZ7L33T8HBLT-00W07,Samsung,PM893,3.84,,,SATA,2.5,,Enterprise,yes,high,,,,,ssd,TLC,7008,1,yes,yes,
+MZ7L37T6HBLA-00W07,Samsung,PM893,7.68,,,SATA,2.5,,Enterprise,yes,high,,,,,ssd,TLC,14016,1,yes,yes,
+SEDC600M/960G,Kingston,DC600M,0.96,,,SATA,2.5,,Enterprise,yes,high,,,,,ssd,TLC,1752,1,yes,yes,530
+SEDC600M/1920G,Kingston,DC600M,1.92,,,SATA,2.5,,Enterprise,yes,high,,,,,ssd,TLC,3504,1,yes,yes,530
+SEDC600M/3840G,Kingston,DC600M,3.84,,,SATA,2.5,,Enterprise,yes,high,,,,,ssd,TLC,7008,1,yes,yes,530
+SEDC600M/7680G,Kingston,DC600M,7.68,,,SATA,2.5,,Enterprise,yes,high,,,,,ssd,TLC,14016,1,yes,yes,530
+MTFDDAK960TGA,Micron,5400 PRO,0.96,,,SATA,2.5,,Enterprise,yes,high,,,,,ssd,TLC,2628,1.5,yes,yes,540
+MTFDDAK1T9TGA,Micron,5400 PRO,1.92,,,SATA,2.5,,Enterprise,yes,high,,,,,ssd,TLC,5256,1.5,yes,yes,540
+MTFDDAK3T8TGA,Micron,5400 PRO,3.84,,,SATA,2.5,,Enterprise,yes,high,,,,,ssd,TLC,8410,1.2,yes,yes,520
+MTFDDAK7T6TGA,Micron,5400 PRO,7.68,,,SATA,2.5,,Enterprise,yes,high,,,,,ssd,TLC,9110,0.65,yes,yes,520
+WDS100T1R0A,WD,Red SA500,1,,,SATA,2.5,,NAS,yes,high,,,,,ssd,TLC,600,,yes,no,
+WDS200T2R0A,WD,Red SA500,2,,,SATA,2.5,,NAS,yes,high,,,,,ssd,TLC,1300,,yes,no,
+WDS400T2R0A,WD,Red SA500,4,,,SATA,2.5,,NAS,yes,high,,,,,ssd,TLC,2500,,yes,no,
+ZA1000NM1A002,Seagate,IronWolf 125,1,,,SATA,2.5,,NAS,yes,high,,,,,ssd,TLC,1400,0.7,yes,no,
+ZA2000NM1A002,Seagate,IronWolf 125,2,,,SATA,2.5,,NAS,yes,high,,,,,ssd,TLC,2800,0.7,yes,no,
+ZA4000NM1A002,Seagate,IronWolf 125,4,,,SATA,2.5,,NAS,yes,high,,,,,ssd,TLC,5600,0.7,yes,no,
+WDS500G1R0C,WD,Red SN700,0.5,,,NVMe,M.2,,NAS,yes,high,,,,,ssd,TLC,1000,,yes,no,
+WDS100T1R0C,WD,Red SN700,1,,,NVMe,M.2,,NAS,yes,high,,,,,ssd,TLC,2000,,yes,no,
+WDS200T1R0C,WD,Red SN700,2,,,NVMe,M.2,,NAS,yes,high,,,,,ssd,TLC,2500,,yes,no,
+WDS400T1R0C,WD,Red SN700,4,,,NVMe,M.2,,NAS,yes,high,,,,,ssd,TLC,5100,0.7,yes,no,
+ZP500NM3A002,Seagate,IronWolf 525,0.5,,,NVMe,M.2,,NAS,yes,high,,,,,ssd,TLC,700,0.7,,no,525
+ZP1000NM3A002,Seagate,IronWolf 525,1,,,NVMe,M.2,,NAS,yes,high,,,,,ssd,TLC,1400,0.7,,no,995
+ZP2000NM3A002,Seagate,IronWolf 525,2,,,NVMe,M.2,,NAS,yes,high,,,,,ssd,TLC,2800,0.7,,no,965
+MZ-V9P1T0,Samsung,990 PRO,1,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,600,,yes,no,
+MZ-V9P2T0,Samsung,990 PRO,2,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,1200,,yes,no,
+MZ-V9P4T0,Samsung,990 PRO,4,,,NVMe,M.2,,Desktop,yes,medium,,,,,ssd,TLC,2400,,yes,no,
+MZ-V7S1T0,Samsung,970 EVO Plus,1,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,600,,yes,no,
+MZ-V7S2T0,Samsung,970 EVO Plus,2,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,1200,,yes,no,
+MZ-77Q1T0,Samsung,870 QVO,1,,,SATA,2.5,,Desktop,yes,high,,,,,ssd,QLC,360,,yes,no,80
+MZ-77Q2T0,Samsung,870 QVO,2,,,SATA,2.5,,Desktop,yes,high,,,,,ssd,QLC,720,,yes,no,160
+MZ-77Q4T0,Samsung,870 QVO,4,,,SATA,2.5,,Desktop,yes,high,,,,,ssd,QLC,1440,,yes,no,160
+MZ-77Q8T0,Samsung,870 QVO,8,,,SATA,2.5,,Desktop,yes,high,,,,,ssd,QLC,2880,,yes,no,160
+CT1000P3PSSD8,Crucial,P3 Plus,1,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,QLC,220,,no,no,
+CT2000P3PSSD8,Crucial,P3 Plus,2,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,QLC,440,,no,no,
+CT4000P3PSSD8,Crucial,P3 Plus,4,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,QLC,800,,no,no,
+SB-RKT4P-1TB,Sabrent,Rocket 4 Plus,1,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,700,,yes,no,
+SB-RKT4P-2TB,Sabrent,Rocket 4 Plus,2,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,1400,,yes,no,
+SB-RKT4P-4TB,Sabrent,Rocket 4 Plus,4,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,3000,,yes,no,
+SB-RKT4P-8TB,Sabrent,Rocket 4 Plus,8,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,5600,,yes,no,
+SB-RKT5-1TB,Sabrent,Rocket 5,1,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,700,,yes,no,
+SB-RKT5-2TB,Sabrent,Rocket 5,2,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,1400,,yes,no,
+SB-RKT5-4TB,Sabrent,Rocket 5,4,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,3000,,yes,no,
+SBFPF2BV076T001,Solidigm,D5-P5336,7.68,,,NVMe,U.2,,Enterprise,yes,high,,,,,ssd,QLC,5900,0.42,yes,yes,1800
+SBFPF2BV153T001,Solidigm,D5-P5336,15.36,,,NVMe,U.2,,Enterprise,yes,high,,,,,ssd,QLC,14100,0.51,yes,yes,3000
+SBFPF2BV307T001,Solidigm,D5-P5336,30.72,,,NVMe,U.2,,Enterprise,yes,high,,,,,ssd,QLC,31500,0.56,yes,yes,3000

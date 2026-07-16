@@ -4,7 +4,7 @@
 
 **Cite:** NASdisks (2026), *NAS Drive Dataset*, Zenodo. doi:[10.5281/zenodo.21225049](https://doi.org/10.5281/zenodo.21225049)
 
-An original dataset of NAS and enterprise hard drives: full specs, **CMR vs SMR classification**, and **annualized failure rates** derived from Backblaze Drive Stats. 149 drives.
+An original dataset of NAS and enterprise hard drives: full specs, **CMR vs SMR classification**, and **annualized failure rates** derived from Backblaze Drive Stats. 208 drives.
 
 The core of this dataset - the CMR/SMR classification and drive specs - is our own original research, compiled from manufacturer datasheets and model-number analysis. Manufacturers do not publish a unified CMR/SMR list; we built one. The failure-rate column enriches it with rates derived from Backblaze's raw Drive Stats data (our computation, their underlying counts).
 
@@ -16,11 +16,11 @@ Maintained at [nasdisks.com](https://www.nasdisks.com/), where the same data pow
 
 | File | Rows | What it is |
 |------|------|------------|
-| [`data/drives-2026-06-26.csv`](data/drives-2026-06-26.csv) | 149 | The headline file: one flat row per drive, all specs and failure rate combined. |
-| [`data/drives-2026-06-26.json`](data/drives-2026-06-26.json) | 149 | The same rows as JSON (mirror of the live API). |
-| [`data/cmr-reference-2026-06-26.csv`](data/cmr-reference-2026-06-26.csv) | 149 | Source of truth for specs and CMR/SMR classification (including idle/seek noise and helium fill), with a per-row `confidence` flag. Our original research. |
-| [`data/backblaze-afr-2026-06-26.csv`](data/backblaze-afr-2026-06-26.csv) | 36 | Full-year 2025 annualized failure rates, computed from Backblaze raw Drive Stats. |
-| [`data/series-reliability-2026-06-26.csv`](data/series-reliability-2026-06-26.csv) | - | Manufacturer series specs (warranty, rated workload, MTBF) used as context where Backblaze has no data. |
+| [`data/drives-2026-07-16.csv`](data/drives-2026-07-16.csv) | 208 | The headline file: one flat row per drive, all specs and failure rate combined. |
+| [`data/drives-2026-07-16.json`](data/drives-2026-07-16.json) | 208 | The same rows as JSON (mirror of the live API). |
+| [`data/cmr-reference-2026-07-16.csv`](data/cmr-reference-2026-07-16.csv) | 208 | Source of truth for specs and CMR/SMR classification (including idle/seek noise and helium fill), with a per-row `confidence` flag. Our original research. |
+| [`data/backblaze-afr-2026-07-16.csv`](data/backblaze-afr-2026-07-16.csv) | 31 | Annualized failure rates over a rolling window through Q1 2026 (full-year 2025 plus the Q1 2026 quarter), computed from Backblaze raw Drive Stats. |
+| [`data/series-reliability-2026-07-16.csv`](data/series-reliability-2026-07-16.csv) | - | Manufacturer series specs (warranty, rated workload, MTBF) used as context where Backblaze has no data. |
 
 ## Quick start
 
@@ -34,7 +34,7 @@ curl -s https://www.nasdisks.com/data/drives.json | jq '.drives[0]'
 curl -s https://www.nasdisks.com/data/drives.csv
 ```
 
-## Columns (`drives-2026-06-26.csv` / `drives-2026-06-26.json`)
+## Columns (`drives-2026-07-16.csv` / `drives-2026-07-16.json`)
 
 | Column | Meaning |
 |--------|---------|
@@ -52,16 +52,16 @@ curl -s https://www.nasdisks.com/data/drives.csv
 | `drive_class` | NAS, NAS-Pro, Enterprise, Surveillance, Desktop, etc. |
 | `in_production` | Whether the drive is currently sold new. |
 | `also_sold_as` | Equivalent SKUs merged into this drive - format/firmware/secure-erase/OEM variants of the same physical drive. `;`-separated in the CSV, an array in JSON; empty when none. |
-| `afr_pct` | Annualized failure rate, full-year 2025, derived from Backblaze Drive Stats (null where Backblaze doesn't track the model). |
+| `afr_pct` | Annualized failure rate over a rolling window through Q1 2026 (2025 + the Q1 2026 quarter), derived from Backblaze Drive Stats (null where Backblaze doesn't track the model). |
 | `reliability_drive_count` / `reliability_drive_days` / `reliability_failures` | The raw Backblaze figures behind `afr_pct`. |
 | `reliability_source` | Provenance of the failure rate. |
 
 ## Methodology
 
-- **CMR vs SMR** is our original classification, built from manufacturer datasheets and model-number decoding. Manufacturers ship SMR drives into NAS lines without labelling them as such; this dataset exists because there was no single authoritative per-model reference. The `confidence` column in `cmr-reference-2026-06-26.csv` flags certainty per row.
+- **CMR vs SMR** is our original classification, built from manufacturer datasheets and model-number decoding. Manufacturers ship SMR drives into NAS lines without labelling them as such; this dataset exists because there was no single authoritative per-model reference. The `confidence` column in `cmr-reference-2026-07-16.csv` flags certainty per row.
 - **Noise and helium** are read from manufacturer datasheets (idle/seek A-weighted sound power; helium-seal designation). Our compilation; licensed CC BY 4.0 alongside the other specs.
-- **Failure rates** are computed from Backblaze's raw 2025 quarterly Drive Stats: we aggregate drive-days and failure counts across quarters into a single full-year annualized rate and validate against Backblaze's published fleet figure (~1.36% for 2025). The computation and methodology are ours; the underlying counts are Backblaze's (see licence section). Models Backblaze doesn't track are left null rather than guessed.
-- **`series-reliability-2026-06-26.csv`** gives manufacturer-rated context (warranty, workload TB/year, MTBF) for lines Backblaze doesn't run.
+- **Failure rates** are computed from Backblaze's raw quarterly Drive Stats: we aggregate drive-days and failure counts into a single annualized rate over a rolling window through Q1 2026 (full-year 2025 plus the Q1 2026 quarter), which keeps per-model samples large, and validate against Backblaze's published fleet figures (~1.34% over that window). The computation and methodology are ours; the underlying counts are Backblaze's (see licence section). Models Backblaze doesn't track are left null rather than guessed.
+- **`series-reliability-2026-07-16.csv`** gives manufacturer-rated context (warranty, workload TB/year, MTBF) for lines Backblaze doesn't run.
 
 ## Licence & attribution
 
@@ -80,7 +80,7 @@ Our original work (every field *except* the failure-rate ones). Licensed under [
 
 ### 2. Failure-rate data - Backblaze's terms (NOT CC BY 4.0)
 
-The fields `afr_pct`, `reliability_drive_count`, `reliability_drive_days`, `reliability_failures` (in `drives-2026-06-26.csv` / `drives-2026-06-26.json`) and all of `backblaze-afr-2026-06-26.csv` are derived from Backblaze Drive Stats. The computation is ours; the underlying counts are Backblaze's.
+The fields `afr_pct`, `reliability_drive_count`, `reliability_drive_days`, `reliability_failures` (in `drives-2026-07-16.csv` / `drives-2026-07-16.json`) and all of `backblaze-afr-2026-07-16.csv` are derived from Backblaze Drive Stats. The computation is ours; the underlying counts are Backblaze's.
 
 - **You can:** use it for free, and build (and even sell) derivative works from it.
 - **You must:** credit Backblaze as the source.
@@ -93,6 +93,7 @@ This repo is a point-in-time snapshot; the date in each filename is its export d
 
 ## Changelog
 
+- **2026-07-16 - v1.0.3** - Refreshed Backblaze failure rates to a rolling window through Q1 2026 (full-year 2025 plus the Q1 2026 quarter, ~1.34% fleet); 208 drives, 25 with a failure rate.
 - **2026-06-26 - v1.0.2** - Refreshed to the current live catalog (149 drives); minor catalog reconciliation since v1.0.1.
 - **2026-06-21 - v1.0.1** - Added per-drive noise (idle/seek A-weighted sound power, dB) and helium fields. Corrected WD40EZAX / WD60EZAX to CMR (newer EZAX is CMR; only older EZAZ is SMR).
 - **2026-06-16 - v1.0.0** - Initial public dataset: full specs, CMR/SMR classification, full-year 2025 Backblaze annualized failure rates.
