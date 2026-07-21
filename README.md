@@ -1,6 +1,6 @@
 # NAS drive dataset
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21225049.svg)](https://doi.org/10.5281/zenodo.21225049)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21225049-blue)](https://doi.org/10.5281/zenodo.21225049)
 
 **Cite:** NASdisks (2026), *NAS Drive Dataset*, Zenodo. doi:[10.5281/zenodo.21225049](https://doi.org/10.5281/zenodo.21225049)
 
