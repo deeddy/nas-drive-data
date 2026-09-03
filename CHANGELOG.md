@@ -2,6 +2,7 @@
 
 All notable changes to this dataset are recorded here. Each release corresponds to a dated snapshot in `data/`.
 
+- 2026-09-04 - v1.0.4 - Refreshed Backblaze failure rates to a rolling window through Q2 2026 (full-year 2025 plus the Q1 and Q2 2026 quarters, ~1.41% fleet), computed from Backblaze's raw Q2 2026 Drive Stats; 273 drives (167 HDD + 106 SSD), 25 with a failure rate. Added recent PCIe 5.0 and NAS-cache SSDs (Crucial P510, Corsair MP700 Elite, Synology SNV3410/SNV3510); sub-TB capacities now reported correctly (were 0); NAS enclosures no longer included.
 - 2026-07-16 - v1.0.3 - Refreshed Backblaze failure rates to a rolling window through Q1 2026 (full-year 2025 plus the Q1 2026 quarter, ~1.34% fleet); 208 drives, 25 with a failure rate.
 - 2026-06-26 - v1.0.2 - Refreshed to the current live catalog (149 drives); minor catalog reconciliation since v1.0.1.
 - 2026-06-21 - v1.0.1 - Added per-drive noise (idle/seek A-weighted sound power, dB) and helium fields. Corrected WD40EZAX / WD60EZAX to CMR (newer EZAX is CMR; only older EZAZ is SMR).
