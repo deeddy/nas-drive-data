@@ -72,6 +72,7 @@ ST22000NT001,Seagate,IronWolf Pro,22,7200,512,SATA,3.5,CMR,NAS-Pro,yes,high,,28,
 ST24000NT002,Seagate,IronWolf Pro,24,7200,512,SATA,3.5,CMR,NAS-Pro,yes,medium,,28,32,1
 ST8000NM000A,Seagate,Exos 7E8,8,7200,256,SATA,3.5,CMR,Enterprise,yes,medium,,28,32,0
 ST8000NM017B,Seagate,Exos 7E10,8,7200,256,SATA,3.5,CMR,Enterprise,yes,medium,,28,32,0
+ST8000NM018B,Seagate,Exos 7E10,8,7200,256,SAS,3.5,CMR,Enterprise,yes,medium,SAS variant,28,32,0
 ST10000NM019B,Seagate,Exos 7E10,10,7200,256,SATA,3.5,CMR,Enterprise,yes,medium,,28,32,0
 ST12000NM001G,Seagate,Exos X16,12,7200,256,SATA,3.5,CMR,Enterprise,yes,high,,29,33,1
 ST14000NM001G,Seagate,Exos X16,14,7200,256,SATA,3.5,CMR,Enterprise,yes,high,,29,33,1
@@ -128,6 +129,8 @@ WD20EFAX,WD,Red,2,5400,256,SATA,3.5,SMR,NAS,yes,low,superseded by Red Plus SMR b
 WD30EFAX,WD,Red,3,5400,256,SATA,3.5,SMR,NAS,yes,low,superseded SMR blacklist,23,29,0
 WD40EFAX,WD,Red,4,5400,256,SATA,3.5,SMR,NAS,yes,low,superseded SMR blacklist,23,29,0
 WD60EFAX,WD,Red,6,5400,256,SATA,3.5,SMR,NAS,yes,low,superseded SMR blacklist,23,29,0
+WD80EFAX,WD,Red,8,5640,256,SATA,3.5,CMR,NAS,no,medium,pre-Plus CMR WD Red 8TB; same hardware later sold as WD80EFPX Red Plus; discontinued,24,28,0
+WD100EFGX,WD,Red,10,7200,256,SATA,3.5,CMR,NAS,no,medium,pre-Plus CMR WD Red 10TB; same hardware later sold as WD101EFBX Red Plus; discontinued,24,28,1
 ST2000DM008,Seagate,BarraCuda,2,7200,256,SATA,3.5,SMR,Desktop,yes,high,SMR blacklist,22,24,0
 ST3000DM007,Seagate,BarraCuda,3,5400,256,SATA,3.5,SMR,Desktop,yes,medium,SMR blacklist,22,24,0
 ST4000DM004,Seagate,BarraCuda,4,5400,256,SATA,3.5,SMR,Desktop,yes,high,SMR blacklist,22,24,0
@@ -207,3 +210,65 @@ SB-RKT5-4TB,Sabrent,Rocket 5,4,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,3000,,ye
 SBFPF2BV076T001,Solidigm,D5-P5336,7.68,,,NVMe,U.2,,Enterprise,yes,high,,,,,ssd,QLC,5900,0.42,yes,yes,1800
 SBFPF2BV153T001,Solidigm,D5-P5336,15.36,,,NVMe,U.2,,Enterprise,yes,high,,,,,ssd,QLC,14100,0.51,yes,yes,3000
 SBFPF2BV307T001,Solidigm,D5-P5336,30.72,,,NVMe,U.2,,Enterprise,yes,high,,,,,ssd,QLC,31500,0.56,yes,yes,3000
+HAT3300-4T,Synology,Plus Series,4,5400,256,SATA,3.5,CMR,NAS,yes,high,Synology Plus Series NAS drive,23,27,0
+HAT3300-6T,Synology,Plus Series,6,5400,256,SATA,3.5,CMR,NAS,yes,high,Synology Plus Series NAS drive,27,28,0
+HAT3320-8T,Synology,Plus Series,8,7200,512,SATA,3.5,CMR,NAS,yes,high,Synology Plus Series NAS drive,34,35,1
+HAT3310-12T,Synology,Plus Series,12,7200,512,SATA,3.5,CMR,NAS,yes,high,Synology Plus Series NAS drive,20,32,1
+HAT3310-16T,Synology,Plus Series,16,7200,512,SATA,3.5,CMR,NAS,yes,high,Synology Plus Series NAS drive,20,32,1
+HAT3320-20T,Synology,Plus Series,20,7200,1024,SATA,3.5,CMR,NAS,yes,high,Synology Plus Series NAS drive,20,32,1
+HAT5320-4T,Synology,Enterprise Series,4,7200,512,SATA,3.5,CMR,Enterprise,yes,high,Synology Enterprise Series CMR,,,0
+HAT5320-8T,Synology,Enterprise Series,8,7200,512,SATA,3.5,CMR,Enterprise,yes,high,Synology Enterprise Series CMR,,,0
+HAT5300-12T,Synology,Enterprise Series,12,7200,256,SATA,3.5,CMR,Enterprise,yes,high,Synology Enterprise Series CMR,,,1
+HAT5310-16T,Synology,Enterprise Series,16,7200,512,SATA,3.5,CMR,Enterprise,yes,high,Synology Enterprise Series CMR,,,1
+HAT5320-20T,Synology,Enterprise Series,20,7200,1024,SATA,3.5,CMR,Enterprise,yes,high,Synology Enterprise Series CMR,,,1
+HAT5320-24T,Synology,Enterprise Series,24,7200,1024,SATA,3.5,CMR,Enterprise,yes,high,Synology Enterprise Series CMR,,,1
+SNV3410-400G,Synology,SNV3410,0.4,,,NVMe,M.2,,NAS,yes,high,NVMe cache SSD (M.2 2280) PCIe 3.0; no PLP,,,,ssd,TLC,491,0.67,,no,
+SNV3410-800G,Synology,SNV3410,0.8,,,NVMe,M.2,,NAS,yes,high,NVMe cache SSD (M.2 2280) PCIe 3.0; no PLP,,,,ssd,TLC,1022,0.70,,no,
+SNV3510-400G,Synology,SNV3510,0.4,,,NVMe,M.2,,NAS,yes,high,NVMe cache SSD (M.2 22110) PCIe 3.0; PLP,,,,ssd,TLC,491,0.67,,yes,
+SNV3510-800G,Synology,SNV3510,0.8,,,NVMe,M.2,,NAS,yes,high,NVMe cache SSD (M.2 22110) PCIe 3.0; PLP,,,,ssd,TLC,1022,0.70,,yes,
+WDS100T2X0E,WD,Black SN850X,1,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,600,,yes,no,
+WDS200T2X0E,WD,Black SN850X,2,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,1200,,yes,no,
+WDS400T2X0E,WD,Black SN850X,4,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,2400,,yes,no,
+CT1000T500SSD8,Crucial,T500,1,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,600,,yes,no,
+CT2000T500SSD8,Crucial,T500,2,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,1200,,yes,no,
+SKC3000S/1024G,Kingston,KC3000,1,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,800,,yes,no,
+SKC3000D/2048G,Kingston,KC3000,2,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,1600,,yes,no,
+SKC3000D/4096G,Kingston,KC3000,4,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,3200,,yes,no,
+MZ-VAP1T0BW,Samsung,9100 PRO,1,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,600,,yes,no,
+MZ-VAP2T0BW,Samsung,9100 PRO,2,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,1200,,yes,no,
+MZ-VAP4T0BW,Samsung,9100 PRO,4,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,2400,,yes,no,
+WDS100T4X0E,WD,Black SN7100,1,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,600,,no,no,
+WDS200T4X0E,WD,Black SN7100,2,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,1200,,no,no,
+WDS400T4X0E,WD,Black SN7100,4,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,2400,,no,no,
+LNM790X001T-RNNNU,Lexar,NM790,1,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,1000,,no,no,
+LNM790X002T-RNNNU,Lexar,NM790,2,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,1500,,no,no,
+LNM790X004T-RNNNU,Lexar,NM790,4,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,3000,,no,no,
+CT1000T705SSD3,Crucial,T705,1,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,600,,yes,no,
+CT2000T705SSD3,Crucial,T705,2,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,1200,,yes,no,
+CT4000T705SSD3,Crucial,T705,4,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,2400,,yes,no,
+CT1000P510SSD1,Crucial,P510,1,,,NVMe,M.2,,Desktop,yes,high,DRAM-less (HMB) Phison E31T; budget PCIe 5.0,,,,ssd,TLC,600,,no,no,
+CT2000P510SSD1,Crucial,P510,2,,,NVMe,M.2,,Desktop,yes,high,DRAM-less (HMB) Phison E31T; budget PCIe 5.0,,,,ssd,TLC,1200,,no,no,7000
+CSSD-F1000GBMP700ENH,Corsair,MP700 Elite,1,,,NVMe,M.2,,Desktop,yes,high,DRAM-less (HMB) Phison E31T; Kioxia BiCS8 TLC; budget PCIe 5.0,,,,ssd,TLC,600,,no,no,
+CSSD-F2000GBMP700ENH,Corsair,MP700 Elite,2,,,NVMe,M.2,,Desktop,yes,high,DRAM-less (HMB) Phison E31T; Kioxia BiCS8 TLC; budget PCIe 5.0,,,,ssd,TLC,1200,,no,no,
+WDS100T4B0E,WD,Blue SN5000,1,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,600,,no,no,
+WDS200T4B0E,WD,Blue SN5000,2,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,900,,no,no,
+WDS400T4B0E,WD,Blue SN5000,4,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,QLC,1200,,no,no,
+MZ-V9S1T0BW,Samsung,990 EVO Plus,1,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,600,,no,no,
+MZ-V9S2T0BW,Samsung,990 EVO Plus,2,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,1200,,no,no,
+MZ-V9S4T0BW,Samsung,990 EVO Plus,4,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,2400,,no,no,
+ZP1000GM3A063,Seagate,FireCuda 530R,1,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,1100,,yes,no,
+ZP2000GM3A063,Seagate,FireCuda 530R,2,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,2400,,yes,no,
+ZP4000GM3A063,Seagate,FireCuda 530R,4,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,5050,,yes,no,
+MZ-V8P1T0BW,Samsung,980 PRO,1,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,600,,yes,no,
+SFYRS/1000G,Kingston,Fury Renegade,1,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,1000,,yes,no,
+SFYRD/4000G,Kingston,Fury Renegade,4,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,4000,,yes,no,
+SSDPFKKW010X7X1,Solidigm,P44 Pro,1,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,700,,yes,no,
+SNV3S/1000G,Kingston,NV3,1,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,320,,no,no,
+SNV3S/2000G,Kingston,NV3,2,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,640,,no,no,
+SNV3S/4000G,Kingston,NV3,4,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,1280,,no,no,
+WDS100T3X0E,WD,Black SN770,1,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,600,,no,no,
+WDS200T3X0E,WD,Black SN770,2,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,1200,,no,no,
+WDS100T1X0M,WD,Black SN8100,1,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,600,,yes,no,
+WDS200T1X0M,WD,Black SN8100,2,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,1200,,yes,no,
+WDS400T1X0M,WD,Black SN8100,4,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,2400,,yes,no,
+WDS800T1X0M,WD,Black SN8100,8,,,NVMe,M.2,,Desktop,yes,high,,,,,ssd,TLC,4800,,yes,no,

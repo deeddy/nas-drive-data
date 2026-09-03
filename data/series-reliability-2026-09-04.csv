@@ -37,3 +37,5 @@ Toshiba,P300,Desktop,2,,,"Mainstream desktop drive - not for 24/7 NAS use.",Manu
 Toshiba,DT02,Desktop,2,,,"Entry desktop drive - SMR; avoid for NAS or RAID.",Manufacturer spec
 Toshiba,L200,Laptop,2,,,"2.5-inch laptop drive - SMR; not for NAS use.",Manufacturer spec
 Toshiba,MQ04,Laptop,2,,,"2.5-inch laptop drive - not for NAS or RAID.",Manufacturer spec
+Synology,Plus Series,NAS,3,180,1200000,"Synology Plus Series - NAS-class CMR drive validated for Synology systems.",Manufacturer spec
+Synology,Enterprise Series,Enterprise,5,550,2500000,"Synology Enterprise Series - CMR enterprise drive (Toshiba MG-based).",Manufacturer spec
