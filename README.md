@@ -14,7 +14,7 @@ Maintained at [nasdisks.com](https://www.nasdisks.com/), where the same data pow
 
 ## What's inside
 
-**Price trends:** [`price-trends/`](price-trends/) tracks NAS drive prices over time - the monthly median $/TB (consumer vs enterprise, the storage price crunch) and how often each drive goes on sale and how deep. Computed data plus charts.
+**Price trends:** [`price-trends/`](price-trends/) - two charts of the NAS drive market over time: the monthly median \$/TB (consumer vs enterprise, the storage price crunch), and how often each drive goes on sale and how deep. Computed data plus the charts.
 
 | File | Rows | What it is |
 |------|------|------------|

@@ -12,7 +12,9 @@ Median price-per-TB sat flat around \$20/TB through 2024 and most of 2025, then 
 
 **Method.** For each month, take each drive's average price-per-TB across its logged days, then the median of those per-drive values across drives (so a model with more logged days doesn't skew the month). 8TB and up because small drives carry a much higher price-per-TB, and which small SKUs happen to be in stock would swing an all-capacity median for reasons unrelated to prices actually moving.
 
-**File:** [`monthly-median-per-tb.csv`](monthly-median-per-tb.csv) - `month`, `consumer_usd_per_tb`, `enterprise_usd_per_tb`.
+**File:**
+
+- [`monthly-median-per-tb.csv`](monthly-median-per-tb.csv) - `month`, `consumer_usd_per_tb`, `enterprise_usd_per_tb`.
 
 **Interactive version** (hover, zoom, and a capacity-matched cheapest-per-TB table): [nasdisks.com/articles/nas-drive-price-crunch](https://www.nasdisks.com/articles/nas-drive-price-crunch/).
 
