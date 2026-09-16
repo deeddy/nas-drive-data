@@ -1,0 +1,66 @@
+brand,line,capacity_tb,segment,pct_days_on_sale,typical_discount_pct,deepest_discount_pct,sale_events,days_observed
+Seagate,"IronWolf Pro",20,consumer,25.4,9.5,21.4,31,710
+Seagate,"IronWolf Pro",12,consumer,19.6,8,26.4,26,679
+Seagate,"IronWolf Pro",16,consumer,18.9,9.1,24.2,24,694
+WD,"Red Plus",10,consumer,15.2,10.7,30.5,37,796
+Seagate,"IronWolf Pro",24,consumer,15,8.3,16.7,21,713
+WD,"Red Pro",24,consumer,14.9,16.5,35.3,18,403
+Seagate,"IronWolf Pro",14,consumer,13.7,13.8,34.8,28,782
+WD,Gold,24,enterprise,11,7.6,24,11,544
+WD,"Red Plus",12,consumer,10.2,9.4,46.6,27,775
+WD,"Red Pro",18,consumer,10,8.7,31,29,763
+WD,"Red Plus",8,consumer,9.5,9,27,22,781
+WD,"Red Pro",8,consumer,9.5,11.1,28.9,15,791
+WD,"Red Pro",22,consumer,9.5,8.5,29.7,17,767
+WD,Gold,12,enterprise,9.4,7.7,21.3,14,758
+Seagate,IronWolf,10,consumer,8.8,17.4,31.4,26,794
+WD,"Red Pro",14,consumer,8.7,8.1,26.4,20,789
+WD,Gold,24,enterprise,8.7,8.2,29.3,16,680
+WD,Gold,18,enterprise,8.5,7.8,26.6,21,785
+Seagate,"IronWolf Pro",10,consumer,8.2,12.9,42.2,18,794
+Toshiba,N300,8,consumer,8.1,19.3,36.3,8,442
+WD,"Red Pro",20,consumer,7.6,10.4,27.6,12,728
+Seagate,"Exos X20",20,enterprise,7.4,9.7,44.6,11,551
+WD,Gold,22,enterprise,7.1,7.9,34.3,16,760
+WD,"Red Pro",12,consumer,6.9,16.3,35.4,17,611
+WD,Gold,20,enterprise,6.1,6.4,26.4,12,625
+WD,"Ultrastar DC HC320",8,enterprise,6,10,47.1,16,745
+Seagate,"Exos X22",22,enterprise,5.9,8.8,39.2,4,323
+Toshiba,MG09,18,enterprise,5.5,8.2,30.1,12,793
+WD,"Red Pro",16,consumer,5.4,9.1,33.5,18,793
+Toshiba,N300,10,consumer,5.4,7.2,50.2,5,331
+Seagate,"Exos 7E8",8,enterprise,5,10.5,28.7,13,793
+Toshiba,MG07,14,enterprise,5,12.1,64.8,11,780
+WD,"Ultrastar DC HC590",26,enterprise,4.6,5.6,34.9,2,324
+WD,Gold,10,enterprise,4.2,10.4,57.4,6,792
+WD,Gold,14,enterprise,4.2,16,43,12,766
+WD,"Ultrastar DC HC550",18,enterprise,4.2,10.7,15.2,7,730
+Toshiba,MG06,10,enterprise,3.6,29.9,42.4,10,731
+Toshiba,MG07,12,enterprise,3.5,11.3,35.6,7,771
+Toshiba,N300,16,consumer,3.3,28.2,29,3,481
+Toshiba,MG09,16,enterprise,3.3,18.7,20,3,608
+WD,"Red Pro",10,consumer,3,25.2,53.5,5,725
+WD,"Ultrastar DC HC520",12,enterprise,3,9.9,33.1,5,600
+WD,"Ultrastar DC HC560",20,enterprise,2.7,5,18.5,4,711
+WD,Gold,16,enterprise,2.6,23.3,58.9,8,681
+Toshiba,N300,12,consumer,2.5,8.4,19.8,3,395
+Toshiba,MG10,20,enterprise,2.4,15.1,40.8,5,736
+Seagate,"Exos X18",18,enterprise,2.3,9,29.3,5,660
+Seagate,"Exos 7E10",10,enterprise,2.2,6.3,21.5,5,730
+WD,Gold,8,enterprise,1.9,8.8,8.8,1,724
+WD,"Ultrastar DC HC550",16,enterprise,1.9,10,11.5,5,730
+Toshiba,MG10,22,enterprise,1.8,12.6,20.4,4,792
+Toshiba,MG09,18,enterprise,1.8,7.3,46.7,3,763
+WD,"Ultrastar DC HC330",10,enterprise,1.4,5.7,10.3,4,793
+WD,"Ultrastar DC HC530",14,enterprise,1.2,13.1,30.5,3,730
+Seagate,"Exos X18",16,enterprise,1.1,48.3,48.4,1,437
+Toshiba,MG06,8,enterprise,0.8,68.6,68.6,3,633
+Seagate,"Exos X18",18,enterprise,0.6,21.6,63.1,2,793
+Toshiba,MG11,24,enterprise,0.6,5.3,5.3,2,494
+Seagate,"Exos X16",16,enterprise,0.5,6.3,7.1,2,556
+Toshiba,MG07,14,enterprise,0.4,6.2,6.2,1,793
+WD,"Ultrastar DC HC580",24,enterprise,0.3,72.7,72.7,1,360
+Seagate,"Exos X24",24,enterprise,0.1,5.9,5.9,1,709
+WD,"Ultrastar DC HC570",22,enterprise,0,0,0,0,730
+Seagate,"Exos 7E10",8,enterprise,0,0,0,0,197
+Toshiba,MG08,16,enterprise,0,0,0,0,222
